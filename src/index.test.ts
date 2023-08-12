@@ -2,7 +2,7 @@ import { adder, concatenate } from './index';
 
 describe('adder module', () => {
     test('test_adder', ()=> {
-        expect(adder(1,2)).toBe(3)
+        expect(adder(1,2)).toBe(4)
     });
 });
 

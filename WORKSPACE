@@ -74,15 +74,10 @@ npm_translate_lock(
     # Recommended attribute that also checks the .bazelignore file
     verify_node_modules_ignored = "//:.bazelignore",
     update_pnpm_lock = True,
-    # bins = {
-    #     "vite": "bin/vite.js"
-    # }
-    # generate_bzl_library_targets = True,
-
     data = [
         "//:package.json",
         "//:pnpm-workspace.yaml",
-        # "//web/svelte-app:package.json",
+        "//web/svelte-app:package.json",
     ]
 )
 

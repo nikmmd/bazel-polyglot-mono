@@ -1,6 +1,4 @@
 {
-  "name": "bazel-test",
-  "version": "1.0.0",
   "private": true,
   "author": "",
   "license": "ISC",
@@ -13,6 +11,12 @@
     "jest-cli": "^29.6.2",
     "jest-junit": "^16.0.0",
     "ts-jest": "^29.1.1",
-    "typescript": "4.9.5"
-  }
+    "typescript": "4.9.5",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.1"
+  },
+  "workspaces": [
+    "libs/addr",
+    "web/*"
+  ]
 }

@@ -1,0 +1,4 @@
+# WARN  The "workspaces" field in package.json is not supported by pnpm. Create a "pnpm-workspace.yaml" file instead
+packages:
+ - "libs/addr"
+ - "web/*"

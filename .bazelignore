@@ -1,1 +1,3 @@
 node_modules
+libs/addr/node_modules
+web/svelte-app/node_modules

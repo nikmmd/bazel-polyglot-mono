@@ -1,6 +1,10 @@
 # @generated
 # Input hashes for repository rule npm_translate_lock(name = "npm", pnpm_lock = "//:pnpm-lock.yaml").
 # This file should be checked into version control along with the pnpm-lock.yaml file.
-pnpm-lock.yaml=1384178298
-package-lock.json=-1479229187
-package.json=-547335086
+.npmrc=-592547263
+pnpm-lock.yaml=-417013172
+package-lock.json=1726676634
+package.json=2003426188
+pnpm-workspace.yaml=789876429
+libs/addr/package.json=-997313344
+web/svelte-app/package.json=1850696162

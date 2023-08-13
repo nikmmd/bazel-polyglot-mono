@@ -105,4 +105,6 @@ http_archive(
 
 load("@aspect_rules_jest//jest:dependencies.bzl", "rules_jest_dependencies")
 
+rules_jest_dependencies()
+
 

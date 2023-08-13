@@ -60,7 +60,7 @@ vite_bin.vite(
 
 vitest_bin.vitest_test(
     name = "vitest",
-    data =  [":node_modules",":config", ":vite_srcs_export", ":vite_public_export"],
+    data =  [":node_modules",":node_modules/jsdom",":config", ":vite_srcs_export", ":vite_public_export"],
     args = [
         "run",
         '--environment=jsdom',
